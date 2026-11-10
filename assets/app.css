@@ -20,7 +20,7 @@ a{color:var(--green-3)}
 .nav a:hover{background:var(--green-2);color:#fff}
 .nav a.on{background:var(--green-3);color:#fff}
 .pill{display:inline-block;min-width:20px;padding:0 6px;border-radius:99px;background:var(--gold);color:var(--green);font-size:12px;font-weight:700;text-align:center;line-height:18px}
-main{padding-top:22px;padding-bottom:30px;min-height:70vh}
+main#app{padding-top:24px;padding-bottom:30px;min-height:70vh}
 h1{font-family:Georgia,"Times New Roman",serif;font-size:30px;line-height:1.2;margin:6px 0 6px;color:var(--green)}
 h2{font-family:Georgia,"Times New Roman",serif;font-size:21px;margin:26px 0 10px;color:var(--green)}
 h3{font-size:16px;margin:0 0 6px}

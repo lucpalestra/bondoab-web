@@ -396,7 +396,7 @@
   }
 
   // ---------- boot ----------
-  fetch('data/banco.json?v=0.1.0').then(function (r) { return r.json(); }).then(function (b) {
+  fetch('data/banco.json?v=0.1.1').then(function (r) { return r.json(); }).then(function (b) {
     BANCO = b; b.q.forEach(function (q) { BYID[q.id] = q; });
     if (S.simAtual && S.simAtual.ids.some(function (id) { return !BYID[id]; })) S.simAtual = null;
     atualizaBadge(); route();
